@@ -1,0 +1,15 @@
+{
+	"name": "Ramz",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "southindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "82ab0d8a-c858-45c7-82d1-3780bd94e050",
+		"tenantId": "3ee4bced-1163-4203-abe8-d88a4f41f707"
+	}
+}
