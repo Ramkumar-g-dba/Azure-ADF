@@ -114,29 +114,44 @@ The goal of this repository is to strengthen Azure Data Engineering skills by bu
 ```
 Azure-ADF/
 │
-├── pipeline/
-│   ├── Copy Data
-│   ├── Stored Procedure
-│   ├── Execute Pipeline
-│   ├── ForEach
-│   ├── Validation
-│   └── Script
-│
 ├── dataflow/
 │   ├── Filter
 │   ├── Join
 │   ├── Select
 │   ├── Derived Column
 │   ├── Conditional Split
+│   ├── Branching
 │   └── Alter Row
 │
 ├── dataset/
+│   └── Azure SQL & File datasets
+│
+├── factory/
+│   └── Azure Data Factory configuration
+│
 ├── linkedService/
-├── integrationRuntime/
-├── trigger/
+│   ├── Azure SQL Database
+│   ├── Azure Blob Storage
+│   └── Other linked services
+│
+├── pipeline/
+│   ├── 01 Copy Data
+│   ├── 02 Stored Procedure
+│   ├── 03 Stored Procedure with Parameter
+│   ├── 04 From CSV
+│   ├── 05 Validation
+│   ├── 06 Send Email
+│   ├── 07 Execute Pipeline
+│   ├── 08 Branching
+│   ├── 09 ForEach
+│   ├── 10 Script
+│   ├── 11 Filter Data Flow
+│   ├── 12 Join Data Flow
+│   └── Common Data Flow
+│
+├── publish_config.json
 └── README.md
 ```
-
 ---
 
 # Skills Demonstrated
